@@ -1,0 +1,21 @@
+{
+    "name": "JeeH",
+    "version": "2.0a1",
+    "description": "A runtime-agnostic abstraction layer for microcontrollers",
+    "keywords": "experimental",
+    "authors": {
+        "name": "Jean-Claude Wippler",
+        "email": "jc@wippler.nl"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://git.jeelabs.org/jeeh"
+    },
+    "license": "Unlicense",
+    "platforms": [ "ststm32" ],
+    "headers": "jee.h",
+    "build": {
+        "extraScript": "scripts/extra.py",
+        "libArchive": false
+    }
+}
